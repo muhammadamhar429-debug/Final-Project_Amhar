@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Thistledown Books</title>
+<meta name="description" content="Visit, call, or write to Thistledown Books — hours, location, and a contact form for orders and events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="index.html">Thistledown <span>Books</span></a>
+    <nav class="shelf-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Visit or write to us</h1>
+    <p>We're at the counter most of the day — but the form below works too.</p>
+  </div>
+</div>
+
+<main>
+  <section>
+    <div class="container two-col">
+      <div class="stack">
+        <h2>Location &amp; hours</h2>
+        <p>14 Mill Lane, in the old print-shop building — the door with the brass bell.</p>
+        <table class="hours-table">
+          <caption>Opening hours</caption>
+          <tbody>
+            <tr><td>Monday – Saturday</td><td>10:00 – 19:00</td></tr>
+            <tr><td>Sunday</td><td>11:00 – 17:00</td></tr>
+            <tr><td>Public holidays</td><td>11:00 – 15:00</td></tr>
+          </tbody>
+        </table>
+        <h2>Reach us directly</h2>
+        <ul>
+          <li>Phone: (555) 013-2244</li>
+          <li>Email: <a href="mailto:hello@thistledownbooks.example">hello@thistledownbooks.example</a></li>
+          <li>Reading nights: first Thursday of every month, 7pm</li>
+        </ul>
+        <div class="map-frame" role="img" aria-label="Map placeholder showing the shop's location on Mill Lane">
+          Map — 14 Mill Lane
+        </div>
+      </div>
+
+      <div>
+        <h2>Send a message</h2>
+        <p>Use this for order holds, event questions, or bringing in books to sell.</p>
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="reason">What's this about?</label>
+            <select id="reason" name="reason">
+              <option value="order">Holding an order</option>
+              <option value="event">Reading night / events</option>
+              <option value="sell">Selling secondhand books</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="field checkbox">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Add me to the Friday staff-picks email</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <p><strong>Thistledown Books</strong><br>14 Mill Lane<br>Open daily</p>
+    </div>
+    <div>
+      <p><a href="about.html">About</a><br><a href="books.html">Books</a><br><a href="contact.html">Contact</a></p>
+    </div>
+    <p class="fine-print">Student project for the Fundamentals of Web Design module. Form does not submit anywhere live.</p>
+  </div>
+</footer>
+
+</body>
+</html>

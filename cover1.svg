@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Book cover, The Tide Keeper">
+  <rect width="200" height="300" fill="#3E4F63"/>
+  <rect x="14" y="14" width="172" height="272" fill="none" stroke="#B8933F" stroke-width="1.5"/>
+  <circle cx="100" cy="110" r="46" fill="none" stroke="#EFE6D8" stroke-width="2"/>
+  <path d="M60 118 Q100 90 140 118" fill="none" stroke="#EFE6D8" stroke-width="2"/>
+  <text x="100" y="205" font-family="Georgia, serif" font-size="20" fill="#EFE6D8" text-anchor="middle">The Tide Keeper</text>
+  <text x="100" y="230" font-family="Georgia, serif" font-size="12" fill="#B8933F" text-anchor="middle">Marisol Wren</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Book cover, Small Hours">
+  <rect width="200" height="300" fill="#7A2E33"/>
+  <rect x="14" y="14" width="172" height="272" fill="none" stroke="#EFE6D8" stroke-width="1.5"/>
+  <rect x="70" y="70" width="60" height="90" fill="none" stroke="#EFE6D8" stroke-width="2"/>
+  <line x1="80" y1="90" x2="120" y2="90" stroke="#EFE6D8" stroke-width="2"/>
+  <line x1="80" y1="105" x2="120" y2="105" stroke="#EFE6D8" stroke-width="2"/>
+  <line x1="80" y1="120" x2="110" y2="120" stroke="#EFE6D8" stroke-width="2"/>
+  <text x="100" y="205" font-family="Georgia, serif" font-size="20" fill="#EFE6D8" text-anchor="middle">Small Hours</text>
+  <text x="100" y="230" font-family="Georgia, serif" font-size="12" fill="#EFE6D8" text-anchor="middle" opacity="0.85">Idris Lock</text>
+</svg>

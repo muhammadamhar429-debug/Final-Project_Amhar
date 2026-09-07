@@ -1,0 +1,9 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Book cover, Field Notes on Leaving">
+  <rect width="200" height="300" fill="#5C6E58"/>
+  <rect x="14" y="14" width="172" height="272" fill="none" stroke="#F1E9D8" stroke-width="1.5"/>
+  <path d="M60 150 L100 90 L140 150 Z" fill="none" stroke="#F1E9D8" stroke-width="2"/>
+  <line x1="100" y1="150" x2="100" y2="180" stroke="#F1E9D8" stroke-width="2"/>
+  <text x="100" y="205" font-family="Georgia, serif" font-size="18" fill="#F1E9D8" text-anchor="middle">Field Notes on</text>
+  <text x="100" y="226" font-family="Georgia, serif" font-size="18" fill="#F1E9D8" text-anchor="middle">Leaving</text>
+  <text x="100" y="250" font-family="Georgia, serif" font-size="12" fill="#F1E9D8" text-anchor="middle" opacity="0.85">Odalys Ferro</text>
+</svg>
